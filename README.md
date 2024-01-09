@@ -22,6 +22,19 @@
 &emsp;&emsp; Za samo preprosto nalaganje slik imamo bolj primerne knjižnice kot je Picasso.
 kompatibilnost s starejšimi android verzijami
 
+### Zakaj izbrati Glide namesto Picasso?
+#### Upravljenje pomninika in predpomnenje slik:
+&emsp;&emsp; Glide je zasnovan tako, da bolj učinkovito upravlja s pomnilnikom in baterijo, še posebej pri nalaganju slik v seznamih ali mrežah, kar lahko pomeni boljšo zmogljivost in manjšo porabo baterije.
+
+&emsp;&emsp;ponuja naprednejše možnosti za predpomnjenje, vključno z možnostjo izbire med diskovnim predpomnjenjem, predpomnjenjem v pomnilniku in predpomnjenjem samo za izvorne slike.
+
+#### Podpora za GiF
+&emsp;&emsp; Glide ima vgrajeno podporo za nalaganje in prikazovanje GIF-ov ter video predogledov, kar je funkcija, ki v Picasso ni na voljo brez dodatnih prilagoditev.
+
+#### Transofrmacije in obdelava slik
+&emsp;&emsp;  Glide omogoča več vgrajenih možnosti za prilagajanje in transformacijo slik, kot je spreminjanje velikosti, obrezovanje in barvne transformacije
+
+
 ### Licenca? Število uporabnikov? 📜
 &emsp;&emsp; BSD licenca. Dovoljena brezplačna uporaba za privatno uporabo kot tudi za komercialne namene. 🆓
 
@@ -33,3 +46,17 @@ kompatibilnost s starejšimi android verzijami
 &emsp;&emsp; Število razvijalcev: 146. 👥
 
 &emsp;&emsp; Okoli 40 tisoč uporabnikov.
+
+
+### Kako začeti? 🚀
+#### &emsp; Dodajanje v projekt:
+&emsp;&emsp; Za vključitev Glide v vaš Android projekt, dodajte naslednjo odvisnost v vaš `build.gradle` datoteko:
+```
+repositories {
+  google()
+  mavenCentral()
+}
+
+dependencies {
+  implementation 'com.github.bumptech.glide:glide:4.16.0'
+}
