@@ -37,7 +37,7 @@
 
 
 ### Licenca? Število uporabnikov? 📜
-&emsp;&emsp; BSD licenca. Dovoljena brezplačna uporaba za privatno uporabo kot tudi za komercialne namene. 🆓
+&emsp;&emsp; Apache 2.0 licenca. Dovoljena brezplačna uporaba za privatno uporabo kot tudi za komercialne namene. 🆓
 
 &emsp;&emsp; Ena izmed najbolj priljubljenih knjižnic za obdelavo slik v Android ekosistemu. 🌍
 
@@ -121,4 +121,6 @@ dependencies {
         Glide.get(this).setMemoryCategory(MemoryCategory.NORMAL)
 
 ```
+
+
 
